@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hekto</title>
+
+    <!-- bootstrap link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <!-- slider link -->
+    <link rel="stylesheet" href="./vendors/css/lightslider.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./resources/css/responsive.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+  </head>
+  <body>
+    <!-- ======= TOP NAV START ======= -->
+    <nav class="navbar navbar-expand-lg top_nav" id="home">
+      <div class="container w-75">
+        <div class="col-md-6 col-sm-12 col-12 left_side d-flex">
+          <div class="mail">
+            <i class="fa-regular fa-envelope"></i>
+            <span>mhhasanul@gmail.com</span>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <span>(12345)67890</span>
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end right_side col-md-6 col-sm-12 col-12"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                USD
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link text-white" href="#">Login</a>
+              <i class="fa-regular fa-user"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link text-white" href="#">Wishlist</a>
+              <i class="fa-regular fa-heart"></i>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ======= TOP NAV END ======= -->
+
+    <!-- ======= MAIN NAV START ======= -->
+    <nav class="navbar navbar-expand-lg sticky-top main_nav">
+      <div class="container w-75">
+        <a href="#home">
+          <img
+            class="navbar-brand img-fluid"
+            src="./resources/img/Logo/nav-logo.png"
+            alt="logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature-product">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#latest-product">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shopex">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#unique-feature">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="search_input" type="search" aria-label="Search" />
+            <button class="search_btn" type="submit">
+              <img
+                class="btn_icon"
+                src="./resources/img/Icon/uil_search.png"
+                alt=""
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- ======= MAIN NAV END ======= -->
+
+    <!-- ======= HEADER START ======= -->
+    <header class="container-fluid header py-5">
+      <div class="lamp_container">
+        <img
+          class="img-fluid"
+          src="./resources/img/Header/main-lamp.png"
+          alt="lamp"
+        />
+      </div>
+      <div class="dot_img">
+        <img
+          class="img-fluid"
+          src="./resources/img/Header/Ellipse 62.png"
+          alt="dot"
+        />
+      </div>
+      <section class="container header_content w-75">
+        <div class="row">
+          <div class="col-md-6 header_left my-auto">
+            <small>Best Furniture For Your Castle....</small>
+            <h2 class="my-3">New Furniture Collection Trends in 2020</h2>
+            <p class="little_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
+              est adipiscing in phasellus non in justo.
+            </p>
+            <br />
+            <button class="shop_now_btn my-3">Shop Now</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="./resources/img/Header/sofa promotional header.png"
+              alt="sofa"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="tripple_dot d-flex justify-content-center">
+        <img
+          class="img-fluid"
+          src="./resources/img/Header/Group 267.png"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- ======= HEADER END ======= -->
+
+    <!-- ======= FEATURED PRODUCTS START ======= -->
+    <section class="container-fluid py-5" id="feature-product">
+      <div class="container my-5 feature_product">
+        <h3 class="text-center">Featured Products</h3>
+        <div class="row mt-5 m-auto">
+          <ul id="responsive">
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-1.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-2.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-3.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-4.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-1.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-2.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-3.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="product_item">
+                <div class="product_item_img">
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/featured-4.png"
+                    alt="chair"
+                  />
+                </div>
+                <div class="product_details mt-3">
+                  <h5>Cantilever chair</h5>
+                  <img
+                    class="img-fluid"
+                    src="./resources/img/Featured Products/dotted-line.png"
+                    alt="dot-line"
+                  />
+                  <p>Code - Y523201</p>
+                  <p>$42.00</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ======= FEATURED PRODUCTS END ======= -->
+
+    <!-- ======= LATEST PRODUCTS START ======= -->
+    <section class="container-fluid py-5" id="latest-product">
+      <div class="container my-5 latest_products">
+        <h3 class="text-center">Leatest Products</h3>
+        <div class="row mt-5">
+          <div
+            class="latest_prdoduct_filter d-flex justify-content-center mt-3"
+          >
+            <button class="filter_btn mx-3" type="button" data-filter="all">
+              New Arrival
+            </button>
+            <button
+              class="filter_btn mx-3"
+              type="button"
+              data-filter=".best-seller"
+            >
+              Best Seller
+            </button>
+            <button
+              class="filter_btn mx-3"
+              type="button"
+              data-filter=".featured"
+            >
+              Featured
+            </button>
+            <button
+              class="filter_btn mx-3"
+              type="button"
+              data-filter=".special-offer"
+            >
+              Special Offer
+            </button>
+          </div>
+        </div>
+        <div class="row my-3 m-auto mixContainer">
+          <div class="col-md-4 mix special-offer">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-1.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mix best-seller">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-2.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mix featured">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-3.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mix featured">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-4.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mix best-seller">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-5.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mix featured special-offer">
+            <div class="latest_product_item">
+              <div class="latest_product_img">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Leatest Products/latest-6.png"
+                  alt="chair"
+                />
+              </div>
+              <div
+                class="latest_product_details mt-3 d-flex justify-content-between"
+              >
+                <div class="latest_product_title">
+                  <small>Comfort Handy Craft</small>
+                </div>
+                <div class="latest_product_price">
+                  <small>$42.00</small>
+                  <small style="color: #fb2448">$65.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= LATEST PRODUCTS START ======= -->
+
+    <!-- ======= SHOPEX OFFER START ======= -->
+    <section class="container-fluid py-5" id="shopex">
+      <div class="container my-5 shopex_offfer">
+        <h3 class="text-center">What Shopex Offer!</h3>
+        <div class="row m-auto text-center">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="shopex_offer_item p-4">
+              <img
+                src="./resources/img/Shopex-offer/free-delivery 1.png"
+                alt=""
+              />
+              <div class="shopex_offer_details">
+                <h5 class="my-4">24/7 Support</h5>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                  purus gravida.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="shopex_offer_item p-4">
+              <img src="./resources/img/Shopex-offer/cashback 1.png" alt="" />
+              <div class="shopex_offer_details">
+                <h5 class="my-4">24/7 Support</h5>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                  purus gravida.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="shopex_offer_item p-4">
+              <img
+                src="./resources/img/Shopex-offer/premium-quality 1.png"
+                alt=""
+              />
+              <div class="shopex_offer_details">
+                <h5 class="my-4">24/7 Support</h5>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                  purus gravida.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="shopex_offer_item p-4">
+              <img
+                src="./resources/img/Shopex-offer/24-hours-support 1.png"
+                alt=""
+              />
+              <div class="shopex_offer_details">
+                <h5 class="my-4">24/7 Support</h5>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                  purus gravida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= SHOPEX OFFER END ======= -->
+
+    <!-- ======= UNIQUE FEATURES START ======= -->
+    <section class="container-fluid py-5 unique_feature">
+      <div class="container my-5">
+        <div class="row m-auto">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="unique_feature_left">
+              <img
+                class="img-fluid sofa"
+                src="./resources/img/Trending Products/unique-feture.png"
+                alt="sofa"
+              />
+            </div>
+          </div>
+          <div
+            class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12-6 d-flex align-items-center"
+          >
+            <div class="unique_feature_right">
+              <h4>
+                Unique Features Of leatest & <br />
+                Trending Poducts
+              </h4>
+              <ul class="mt-4 color_dot">
+                <li class="colorOne">
+                  All frames constructed with hardwood solids and laminates
+                </li>
+                <li class="colorTwo">
+                  Reinforced with double wood dowels, glue, screw - nails corner
+                  blocks and machine nails
+                </li>
+                <li class="colorThree">
+                  Arms, backs and seats are structurally reinforced
+                </li>
+              </ul>
+              <div class="btn_price mt-5 d-flex">
+                <button>Add To Cart</button>
+                <div class="price mx-3">
+                  <p>B&B Italian Sofa</p>
+                  <small>$32.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= UNIQUE FEATURES END ======= -->
+
+    <!-- ======= TRENDING PRODUCTS START ======= -->
+    <section class="container-fluid py-5" id="unique-feature">
+      <div class="container my-5 trending_products">
+        <h3 class="text-center">Trending Products</h3>
+        <!-- trending product card start -->
+        <div class="row m-auto">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="trending_product_item">
+              <div class="trending_product_img">
+                <img
+                  class="img-fluid mt-4"
+                  src="./resources/img/Trending Products/trend-1.png"
+                  alt="chair"
+                />
+              </div>
+              <div class="trending_product_details mt-3">
+                <h5>Cantilever chair</h5>
+                <small class="mx-2">$26.00 </small>
+                <small class="mx-2" style="color: #b9bad6">
+                  <del> $42.00</del></small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="trending_product_item">
+              <div class="trending_product_img">
+                <img
+                  class="img-fluid mt-4"
+                  src="./resources/img/Trending Products/trend-2.png"
+                  alt="chair"
+                />
+              </div>
+              <div class="trending_product_details mt-3">
+                <h5>Cantilever chair</h5>
+                <small class="mx-2">$26.00 </small>
+                <small class="mx-2" style="color: #b9bad6">
+                  <del> $42.00</del></small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="trending_product_item">
+              <div class="trending_product_img">
+                <img
+                  class="img-fluid mt-4"
+                  src="./resources/img/Trending Products/trend-3.png"
+                  alt="chair"
+                />
+              </div>
+              <div class="trending_product_details mt-3">
+                <h5>Cantilever chair</h5>
+                <small class="mx-2">$26.00 </small>
+                <small class="mx-2" style="color: #b9bad6">
+                  <del> $42.00</del></small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+            <div class="trending_product_item">
+              <div class="trending_product_img">
+                <img
+                  class="img-fluid mt-4"
+                  src="./resources/img/Trending Products/trend-4.png"
+                  alt="chair"
+                />
+              </div>
+              <div class="trending_product_details mt-3">
+                <h5>Cantilever chair</h5>
+                <small class="mx-2">$26.00 </small>
+                <small class="mx-2" style="color: #b9bad6">
+                  <del> $42.00</del></small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- trending product card end -->
+
+        <!-- trending product discount-card start -->
+        <div class="row m-auto mt-5">
+          <div
+            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 my-3"
+          >
+            <div class="all_product_23_first">
+              <h5>23% off in all products</h5>
+              <a href="#" style="color: #fb2e86">Shop Now</a>
+              <div class="discount_product_img d-flex justify-content-end">
+                <img
+                  src="./resources/img/Trending Products/discount-1.png"
+                  alt="23% off"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 my-3"
+          >
+            <div class="all_product_23_second">
+              <h5>23% off in all products</h5>
+              <a href="#" style="color: #fb2e86">Shop Now</a>
+              <div class="discount_product_img d-flex justify-content-end">
+                <img
+                  class="img-fluid"
+                  src="./resources/img/Trending Products/discount-2.png"
+                  alt="23% off"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- trending ** mini-product ** start -->
+          <div
+            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 my-3"
+          >
+            <div class="all_product_23_third">
+              <div class="mini_product_container">
+                <div class="mini_product_left">
+                  <img
+                    class="img-fluid justify-content-center"
+                    src="./resources/img/Trending Products/trend-mini-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mini_product_right">
+                  <p>Executive Seat chair</p>
+                  <small> <del>$32.00</del> </small>
+                </div>
+              </div>
+              <div class="mini_product_container py-4">
+                <div class="mini_product_left">
+                  <img
+                    class="img-fluid justify-content-center"
+                    src="./resources/img/Trending Products/trend-mini-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mini_product_right">
+                  <p>Executive Seat chair</p>
+                  <small> <del>$32.00</del> </small>
+                </div>
+              </div>
+              <div class="mini_product_container">
+                <div class="mini_product_left">
+                  <img
+                    class="img-fluid justify-content-center"
+                    src="./resources/img/Trending Products/trend-mini-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mini_product_right">
+                  <p>Executive Seat chair</p>
+                  <small> <del>$32.00</del> </small>
+                </div>
+              </div>
+            </div>
+            <!-- trending ** mini-product ** end -->
+          </div>
+          <!-- trending product discount-card end -->
+        </div>
+      </div>
+    </section>
+    <!-- ======= TRENDING PRODUCTS END ======= -->
+
+    <!-- ======= FOOTER START ======= -->
+    <footer class="container-fluid py-5 footer_container" id="footer">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="mb-4">Hekto</h5>
+            <div class="d-flex">
+              <input type="text" placeholder="Enter Email Address" />
+              <button>Sign Up</button>
+            </div>
+            <div class="mt-4" style="color: #afb3d2">
+              <small class="pt-3">Contact Info</small> <br />
+              <small class="mb-4"
+                >17 Princess Road, London, Greater London NW1 8JR, UK</small
+              >
+            </div>
+          </div>
+          <div class="col-md-8 px-3">
+            <div class="row d-flex justify-content-between">
+              <div class="col-md-3 mb-4">
+                <p class="mb-4">Catagories</p>
+                <div>
+                  <small>Laptops & Computers</small> <br />
+                  <small>Cameras & Photography</small><br />
+                  <small>Smart Phones & Tablets</small><br />
+                  <small>Video Games & Consoles</small> <br />
+                  <small>Waterproof Headphones</small>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <p class="mb-4">Customer Care</p>
+                <div>
+                  <small>My Account</small> <br />
+                  <small>Discount</small> <br />
+                  <small>Returns</small><br />
+                  <small>Orders History</small> <br />
+                  <small>Order Tracking</small>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <p class="mb-4">Pages</p>
+                <div>
+                  <small>Blog</small> <br />
+                  <small>Browse the Shop</small> <br />
+                  <small>Category</small> <br />
+                  <small>Pre-Built Pages</small><br />
+                  <small>Visual Composer Elements</small> <br />
+                  <small>WooCommerce Pages</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="container_fluid footer_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <small style="color: #afb3d2">©Webecy - All Rights Reserved</small>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end mt-3">
+            <img src="./resources/img/footer/Group 205.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ======= FOOTER END ======= -->
+
+    <!-- ==================================================== -->
+    <!-- JS SCRIPT -->
+    <!-- ==================================================== -->
+    <!-- bootstrap script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awesome script-->
+    <script
+      src="https://kit.fontawesome.com/3dceb0ee86.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery js-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- slider js-->
+    <script src="./vendors/js/lightslider.js"></script>
+    <!-- Mixed it up js-->
+    <script src="./vendors/js/mixitup.min.js"></script>
+    <!-- main js-->
+    <script src="./vendors/js/style.js"></script>
+  </body>
+</html>
